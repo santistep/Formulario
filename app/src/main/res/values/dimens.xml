@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_titulo">30sp</dimen>
+    <dimen name="size_form_text">20sp</dimen>
+    <dimen name="margin_top">30dp</dimen>
+    <dimen name="margin_form_top">20dp</dimen>
+    <dimen name="size_button">15sp</dimen>
+</resources>

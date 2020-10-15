@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmarDatos">
+
+    <TextView
+        android:id="@+id/tvConfirmarDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_conf_datos"
+        android:textSize="@dimen/size_titulo"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/form_name"
+        android:textSize="@dimen/size_form_text"
+        android:layout_below="@id/tvConfirmarDatos"
+        android:layout_marginTop="@dimen/margin_top"
+        />
+
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/form_birth_date"
+        android:textSize="@dimen/size_form_text"
+        android:layout_below="@id/tvNombre"
+        android:layout_marginTop="@dimen/margin_top"
+        />
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/form_phone"
+        android:textSize="@dimen/size_form_text"
+        android:layout_below="@id/tvFecha"
+        android:layout_marginTop="@dimen/margin_top"
+        />
+
+    <TextView
+        android:id="@+id/tvMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/form_email"
+        android:textSize="@dimen/size_form_text"
+        android:layout_below="@id/tvTelefono"
+        android:layout_marginTop="@dimen/margin_top"
+        />
+
+    <TextView
+        android:id="@+id/tvNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/form_note"
+        android:textSize="@dimen/size_form_text"
+        android:layout_below="@id/tvMail"
+        android:layout_marginTop="@dimen/margin_top"
+        />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_below="@id/tvNota"
+        android:text="@string/button_edit"
+        android:textSize="@dimen/size_button"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
